@@ -1,8 +1,7 @@
 # SQL_DATA_WAREHOUSE_PROJECT (Medallion Architecture)
 Data warehouse is a type of data architecture, a distinct and common model that organizes and stores data in a structured, centralized way, used for business intelligence and analytics. It is the blueprint for how data from various sources is integrated, cleaned, and stored in a central location to support decision-making. 
 
-The project is inspired by **Baraa Khatib Salkini’s**[![](https://img.shields.io/badge/“Data_with_Baraa”-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@DataWithBaraa)
-and guided by **Mrs. Sneha Srinath (Founder – Mom Analyst Hub)**.
+The project is inspired by **Baraa Khatib Salkini’s - Data with Baraa** and guided by **Mrs. Sneha Srinath (Founder – Mom Analysts Hub)**.
 
 
 ## 🔹 Project Objective
@@ -24,7 +23,12 @@ CSV files representing data from:
 ---
 
 ## 🔹 Architecture Overview
-The warehouse follows the **Medallion Architecture**:
+The data architecture for this project follows **Medallion Architecture**- **Bronze**, **Silver**, and **Gold** layers:
+![Data Architecture](docs/data_architecture.png)
+
+1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ### 🥉 Bronze Layer (Raw Data)
 - Stores raw data as-is from source CSV files
@@ -76,10 +80,10 @@ All diagrams were designed using **draw.io**:
 - GitHub
 
 ---
-
+[Connect with me on LinkedIn](https://www.linkedin.com/in/jayarani-arunachalam-23jun1990/)
 ## 🔹 Acknowledgements
-- **Baraa Khatib Salkini** – Data with Baraa (YouTube)
-- **Mrs. Sneha Srinath** – Founder, Mom Analyst Hub
+- [**Baraa Khatib Salkini**](https://www.linkedin.com/in/baraa-khatib-salkini/) – [![](https://img.shields.io/badge/Data_with_Baraa-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@DataWithBaraa)
+- [**Mrs. Sneha Srinath**](https://www.linkedin.com/in/sneha-srinath/)– Founder, [Mom Analysts Hub](https://www.linkedin.com/company/mom-analysts-hub/posts/?feedView=all)
 
 ---
 
