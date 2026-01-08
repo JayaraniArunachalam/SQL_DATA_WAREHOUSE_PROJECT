@@ -78,6 +78,47 @@ All diagrams were designed using **draw.io**:
 - GitHub
 
 ---
+
+## 📂 Repository Structure
+
+```
+SQL_DATA_WAREHOUSE_PROJECT/
+│
+├── README.md
+│
+├── diagrams/
+│   ├── data_architecture.png
+│   ├── data_flow.png
+│   └── data_integration.png
+│
+├── datasets/
+│   ├── crm_sales_details.csv
+│   ├── crm_cust_info.csv
+│   ├── crm_prd_info.csv
+│   ├── erp_cust_az12.csv
+│   ├── erp_loc_a101.csv
+│   └── erp_px_cat_g1v2.csv
+│
+├── scripts/
+│   ├── 01_create_databases.sql
+│   ├── 02_ddl_bronze.sql
+│   ├── 03_load_bronze.sql
+│   ├── 04_bronze_data_quality_checks.sql
+│   ├── 05_bronze_data_cleansing.sql
+│   ├── 06_ddl_silver.sql
+│   ├── 07_load_silver.sql
+│   ├── 08_gold_views.sql
+│
+├── bronze/
+│   └── README.md
+│
+├── silver/
+│   └── README.md
+│
+└── gold/
+    └── README.md
+```
+
 [Connect with me on LinkedIn](https://www.linkedin.com/in/jayarani-arunachalam-23jun1990/)
 ## 🔹 Acknowledgements
 The project is inspired by **Baraa Khatib Salkini’s - Data with Baraa** and guided by **Mrs. Sneha Srinath (Founder – Mom Analysts Hub)**.
