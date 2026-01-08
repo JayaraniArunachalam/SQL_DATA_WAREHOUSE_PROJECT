@@ -57,6 +57,7 @@ All diagrams were designed using **draw.io**:
 - Data Model Diagram
 
 (Refer to `/diagrams` folder)
+📂 [Diagrams](./diagrams)
 
 ---
 
