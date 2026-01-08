@@ -89,7 +89,8 @@ SQL_DATA_WAREHOUSE_PROJECT/
 ├── diagrams/
 │   ├── data_architecture.png
 │   ├── data_flow.png
-│   └── data_integration.png
+│   ├── data_integration.png
+│   └── data_model.png
 │
 ├── datasets/
 │   ├── crm_sales_details.csv
