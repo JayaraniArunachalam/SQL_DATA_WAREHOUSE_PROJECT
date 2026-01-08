@@ -1,11 +1,9 @@
 # SQL_DATA_WAREHOUSE_PROJECT (Medallion Architecture)
 Data warehouse is a type of data architecture, a distinct and common model that organizes and stores data in a structured, centralized way, used for business intelligence and analytics. It is the blueprint for how data from various sources is integrated, cleaned, and stored in a central location to support decision-making. 
 
-The project is inspired by [![](https://img.shields.io/badge/Baraa_Khatib_Salkini’s_“Data_with_Baraa”-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.youtube.com/@DataWithBaraa)
+The project is inspired by **Baraa Khatib Salkini’s**[![](https://img.shields.io/badge/“Data_with_Baraa”-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@DataWithBaraa)
 and guided by **Mrs. Sneha Srinath (Founder – Mom Analyst Hub)**.
 
-[![](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yourprofile)
----
 
 ## 🔹 Project Objective
 To design and implement a scalable SQL-based data warehouse by integrating data from multiple source systems (CRM & ERP), applying data quality checks, standardization, and business transformations, and delivering analytics-ready data models.
