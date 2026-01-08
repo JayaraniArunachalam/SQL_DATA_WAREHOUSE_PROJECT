@@ -58,8 +58,6 @@ All diagrams were designed using **draw.io**:
 
 (Refer to `/diagrams` folder)
 
-📂 [Diagrams](/diagrams)
-
 ---
 
 ## 🔹 Key Learnings
